@@ -9,8 +9,6 @@
    <version>1.0-SNAPSHOT</version>
 
    <properties>
-      <maven.compiler.source>18</maven.compiler.source>
-      <maven.compiler.target>18</maven.compiler.target>
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
    </properties>
    <dependencies>
@@ -20,5 +18,30 @@
          <version>5.10.0</version>
          <scope>test</scope>
       </dependency>
+      <dependency>
+         <groupId>io.cucumber</groupId>
+         <artifactId>cucumber-java</artifactId>
+         <version>7.20.0</version>
+         <scope>test</scope>
+      </dependency>
+      <dependency>
+         <groupId>io.cucumber</groupId>
+         <artifactId>cucumber-junit</artifactId>
+         <version>7.20.0</version>
+         <scope>test</scope>
+      </dependency>
+      <dependency>
+         <groupId>org.junit.platform</groupId>
+         <artifactId>junit-platform-suite</artifactId>
+         <version>1.11.3</version>
+         <scope>test</scope>
+      </dependency>
+      <dependency>
+         <groupId>io.cucumber</groupId>
+         <artifactId>cucumber-junit-platform-engine</artifactId>
+         <version>7.20.0</version> <!-- Ersetze die Version bei Bedarf durch die gewünschte oder aktuelle -->
+         <scope>test</scope>
+      </dependency>
+
    </dependencies>
 </project>
